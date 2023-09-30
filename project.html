@@ -73,15 +73,33 @@ li a:hover {
     sourceTypeButton.addEventListener('click', () => {
       // Handle the click event
     });
-  </script>
-            <   
+  </script> 
             </div>
 
-            <fieldset>
-                <legend>Upload Your Source file</legend>
-              <label for="fileselect1">Upload:</label>
-              <input type="file" name="fileselect" id="fileselect1" height="100px">
-            </fieldset>
+<!--<fieldset>
+    <legend>Upload Your Source file</legend>
+    <label for="fileselect1">Upload:</label>
+    <input type="file" name="fileselect" id="fileselect1" height="100px">
+</fieldset> -->
+<style>
+    fieldset{
+        border:1px solid rgb(0, 0, 0);
+        background-color: rgb(209, 212, 206);
+    }
+    legend{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
+<fieldset>
+    <h1>Please fill the given form for newest updates</h1>
+    <legend>Upload Your Source File</legend>
+<li>
+    <label for="name">Upload:</label>
+        <input id="name"type="you can fill your name here" value="name">
+</li>
+<br>
+</fieldset>
             <br>
             <br>
             
@@ -109,9 +127,8 @@ li a:hover {
             <br/>
         <br/>
   
-            <button type="submit" class="btn btn-primary" align-items="center"><div class="vertical-center">Translate</button>
-        </form></div>
-        
+            <button type="submit" class="btn btn-primary"><div class="vertical-center">Translate</button>
+
 
         <div id="translatedText" class="mt-3"></div>
     </div>
