@@ -37,14 +37,8 @@ li a:hover {
 }
 
 </style>
-
-
-        
-    
-        
-    
 </head>
-<body background-color="lightgreen" >
+<body>
     <ul>
         <li><a class="active" href="#home">Home</a></li>
         
@@ -57,34 +51,23 @@ li a:hover {
             
             <div class="form-group">
                 <title>Source Type Button</title>
- 
-            
+            </div>
   
-</head>  
 
 <br/> 
-
-        
-<body>
-<div class="section">
-<div class="section1"> 
+<div class="bgImage">
+<div class="overlay"></div>
+<div class="content"> 
   <script>
     const sourceTypeButton = document.querySelector('.source-type-button');
     sourceTypeButton.addEventListener('click', () => {
       // Handle the click event
     });
   </script> 
-            </div>
-
-<!--<fieldset>
-    <legend>Upload Your Source file</legend>
-    <label for="fileselect1">Upload:</label>
-    <input type="file" name="fileselect" id="fileselect1" height="100px">
-</fieldset> -->
 <style>
     fieldset{
         border:1px solid rgb(0, 0, 0);
-        background-color: rgb(209, 212, 206);
+        background-color: rgb(143, 197, 234);
     }
     legend{
         text-align: center;
@@ -96,26 +79,21 @@ li a:hover {
     <legend>Upload Your Source File</legend>
 <li>
     <label for="name">Upload:</label>
-        <input id="name"type="you can fill your name here" value="name">
+        <input id="name"type="file" value="name">
 </li>
 <br>
 </fieldset>
-            <br>
-            <br>
             
-            <div class="form-group">
-                <label for="targetLanguage">Target Language:</label>
-                <select class="form-control" id="targetLanguage">
-                    <option value="hi">Hindi</option>
-                    <option value="bn">Bengali</option>
-                    <option value="gu">Gujarati</option>
-                    <option value="mr">Marathi</option>
-                    
-                    <option value="ta">Tamil</option>
-                    <option value="te">Telugu</option>
-                   
-                    
-                </select>
+    <div class="form-group">
+        <label for="targetLanguage">Target Language:</label>
+        <select class="form-control" id="targetLanguage">
+            <option value="hi">Hindi</option>
+            <option value="bn">Bengali</option>
+            <option value="gu">Gujarati</option>
+            <option value="mr">Marathi</option>                    
+            <option value="ta">Tamil</option>
+            <option value="te">Telugu</option>                    
+            </select>
             </div>
        
             <br/>
@@ -135,16 +113,11 @@ li a:hover {
 
   
     
-    <div class="footer">
-        <div class="footer__copy">
-            Translator   </div>
-    </div>
-    <div id="network" class="network">
-        <i class="ico ico--network"></i>
-        <div class="network__text">
-            Woops! Something is wrong with your Internet connection...    </div>
-    </div>
-    <script>
+<div class="footer">
+    <div class="footer__copy">
+        Translator   </div>
+</div>
+<!--<script>
         javascript
 document.getElementById('translationForm').addEventListener('submit', function(event) {
     event.preventDefault();
@@ -172,7 +145,7 @@ function translateText(text, targetLanguage) {
         });
 }
 
-    </script>
+    </script>-->
 </div> 
 </div> 
 </body>
